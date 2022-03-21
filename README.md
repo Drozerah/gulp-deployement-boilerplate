@@ -16,6 +16,12 @@ Installation
 $ git clone https://github.com/Drozerah/gulp-deployement-boilerplate.git
 ```
 
+then
+
+```bash
+$ npm install
+```
+
 Usage
 -----
 
