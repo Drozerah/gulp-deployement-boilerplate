@@ -1,0 +1,23 @@
+{
+  "name": "gulp-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production gulp BUILD",
+    "dev": "cross-env NODE_ENV=development gulp BUILD",
+    "deploy": "cross-env NODE_ENV=production gulp DEPLOY"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
