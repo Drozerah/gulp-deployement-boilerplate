@@ -1,6 +1,6 @@
 # Gulp Deployement Boilerplate
 
-> Gulp FTP deployement task boilerplate
+> Gulp FTP deployement task based on [Vinyl adapter for FTP](https://www.npmjs.com/package/vinyl-ftp) 
 
 Table of Contents
 -----------------
